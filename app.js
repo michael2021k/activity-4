@@ -13,7 +13,7 @@
             return "Itachi is a hidden hero character in naruto!"
         };
 
-        $scope.feedYaakov =function () {
+        $scope.amaterasu =function () {
             $scope.stateOfBeing = "amaterasu";
         }
     }
