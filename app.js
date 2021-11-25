@@ -7,14 +7,14 @@
     MsgController.inject = ['$scope'];
     function MsgController($scope) {
         $scope.name = "Itachi";
-        $scope.stateOfBeing = "genjutsu";
+        $scope.stateOfBeing = "sharingan";
 
         $scope.sayMessage = function () {
-            return "Itachi is a hidden hero character in naruto!"
+            return "You are now under my genjutso!"
         };
 
-        $scope.genjutsu =function () {
-            $scope.stateOfBeing = "genjutsu";
+        $scope.usedGenjutsu =function () {
+            $scope.stateOfBeing = "tsukuyomi";
         }
     }
 
