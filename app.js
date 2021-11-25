@@ -6,15 +6,15 @@
 
     MsgController.inject = ['$scope'];
     function MsgController($scope) {
-        $scope.name = "Itachi";
-        $scope.stateOfBeing = "tsukuyomi";
+        $scope.name = "itachi-sharingan";
+        $scope.stateOfBeing = "Tsukuyomi";
 
         $scope.sayMessage = function () {
             return "You are now under my genjutso!"
         };
 
         $scope.usedGenjutsu =function () {
-            $scope.stateOfBeing = "tsukuyomi";
+            $scope.stateOfBeing = "Tsukuyomi";
         }
     }
 
